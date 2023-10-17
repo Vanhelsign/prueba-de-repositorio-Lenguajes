@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #10141f;
+}
+
+/*seccion principal*/
+
+.titulo {
+    height: 40px;
+    width: 600px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+    margin: 30px 70px;
+    padding: 16px 100px;
+    text-decoration: none;
+    background-color: #cf3e3e;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/*seccion del contenido*/
+
+.links {
+    display: flex;
+    flex-direction: unset;  
+    justify-content: center;
+    width: 90%;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.lista-links {
+    
+    text-align:justify;
+    width: 95%;
+    background-color: #171d2e;
+    border-radius: 7px;
+    margin: 0px 5px;
+    padding: 12px 0;
+    transition: all 0.3s;
+    color: white;
+    
+}
+
+.margen {
+    padding: 0 10px;
+}
+
+/*Seccion de los botones*/
+
+.botones{
+    display: flex;
+    flex-direction: unset;
+    font-family:Arial, Helvetica, sans-serif ;
+    justify-content: center;
+    font-size: 30px;
+    width: 85%;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #171d2e;
+}
+
+ul {
+
+    display: flex;
+    flex-direction: unset;
+}
+
+ul li {
+    display: flex;
+    padding: 15px 130px;
+}
+
+a {
+    color: white;
+    background-color: #273049;
+    transition: all 0.3s;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+
+a:hover {
+    background-color: #cf3e3e;
+    color: yellow;
+}
+
+/*---*/
+
+.pregunta {
+    color: rgb(233, 233, 23);
+}
+
+.rojo {
+    color: #cf3e3e;
+}
+
+
+.contenedorInfo {
+    display: flex;
+    flex-direction: unset;
+}
+
+.separacionTexto {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.separacionImagen {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.separacionTexto2 {
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.separacionImagen2 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagenChica{
+    height: 150px;
+    width: auto;
+}
+
+.imagenGrande {
+    height: 225px;
+    width: auto;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+
+
+

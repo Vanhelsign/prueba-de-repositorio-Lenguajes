@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Seccion: Tareas</title>
+    <link rel="stylesheet" href="css/menuTareas3.css">
+</head>
+<body>
+    <section class="titulo">
+        <div class="inicio">
+            <div class="tarea">
+                <h2>Tarea #7. Haskell</h2>
+            </div>   
+        </div>
+    </section>
+
+    <section class="links">
+        <div class="lista-links">
+            <!--Inicio del espacio para los simbolos que utiliza-->
+            <p class="margen rojo">Simbolos que utiliza Haskell</p><br>
+            
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">1-Operadores matematicos</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`+` (Suma).</li>
+                        <li class="margen">`-` (Resta).</li>
+                        <li class="margen">`*` (Multiplicación).</li>
+                        <li class="margen">`/` (División).</li>
+                        <li class="margen">`sqrt` (Raiz cuadrada).</li>
+                        <li class="margen">`^` (potencia).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">2-Operadores de comparación</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`==` (Igual a).</li>
+                        <li class="margen">`!=` (Diferente de).</li>
+                        <li class="margen">`&lt;` (Menor que).</li>
+                        <li class="margen">`>` (Mayor que).</li>
+                        <li class="margen">`&lt;=` (Menor o igual que).</li>
+                        <li class="margen">`>=` (Mayor o igual que).</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <br>
+
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">3-Simbolos especiales</p>
+                    <br>
+                    <ul>
+                        <li class="margen">` \ ` (Se utiliza para definir funciones anonimas).</li>
+                        <li class="margen">` $ ` (Se utiliza para aplicar un una función a un argumento).</li>
+                        <li class="margen">` -- > ` (Indica la relación entre dos argumentos de entrada y de la función).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">4-Simbolos de puntuación</p>
+                    <br>
+                    <ul>
+                        <li class="margen">` , ` (Coma, para separar elementos en una lista o argumentos de una declaración).</li>
+                        <li class="margen">` :: ` (Dos puntos, se utiliza para especificar el tipo de expresión o función).</li>
+                        <li class="margen">` ; ` (Punto, se utiliza para separar declaraciones en un bloque de codigo).</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <br>
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">5-Operadores logicos</p>
+                    <br>
+                    <ul>
+                        <li class="margen">` && ` (Puerta logica "Y").</li>
+                        <li class="margen">` || ` (Puerta logica "o").</li>
+                        <li class="margen">` not ` (Negación).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">6-Comentarios</p>
+                    <br>
+                    <ul>
+                        <li class="margen">` -- ` (Para comentarios de una sola línea).</li>
+                    </ul>
+                </div> <br>
+                
+            </div>
+            
+            <!--Inicio del espacio para la sintaxis-->
+            <br>
+            <p class="margen rojo">Sintaxis que utiliza Haskell</p>
+            <br>
+
+            <ul >
+                <li class="margen">
+                     <span class="pregunta">Variables y asignación:</span> Las variables en Haskell se crean una vez que se le asigna el tipo de dato, esto debido a que las varaibles no son mutables y en cambio se utilizan patrones de coincidencia y funciones para definir valores.
+                    <br><br>
+                    Ejemplo: nombre :: String<br>
+                    -------- nombre = "Juan"
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Comentarios:</span> Se utilizan para añadir explicaciones de una o varias lineas de codigo, esto utilizando el simbolo "--" ó {- -}.
+                    <br><br>
+                    Ejemplo: --Este es un comentario en Haskell.
+                    Ejemplo 2: {- Este es un comentario de varias lineas en Haskell-}
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Estructuras de control:</span> Con Haskell no es necesario el us ode caracteres para definir bloques de codigo, este se guia mas por la identiación del codigo.
+                    <br><br>
+                    Ejemplo: <br> <br>
+                    if condición <br>
+                    --then <br>
+                    --- --Condición si la condición es verdadera----- <br>
+                    --else <br>
+                    --- --Codigo si la condición es falsa-----
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Funciones:</span> Para poder crear una función es necesario definirlo con una palabra clave acompañado del simbolo "::" para especificar el tipo de dato y el simbolo "=" para definir la función.
+                    <br><br>
+                    Ejemplo: <br> <br>
+                    miFuncion :: Tipo1 -> Tipo2 <br>
+                    miFuncion parametro = -- Código de la función <br>
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Listas:</span> Para poder crear listas es necesario asignar elementos a una variable haciendo uso de los corchetes "[ ] y para añadir esos elementos a la variable se hace uso de una coma " , ".
+                    <br><br>
+                    Ejemplo: Mi_lista: [1, 2, 3, 4]
+                </li> <br>
+                <li class="margen">
+                    <span class="pregunta">Entradas y Salidas:</span> Mediante el uso de las funciones establecidas como `putStrLn` y `getLine` es que se puede hacer uso de la entrada y salida de información .
+                    <br><br>
+                    Ejemplo: <br> <br>
+                    main = do <br>
+                    ----putStrLn "Ingrese su nombre: " <br>
+                    ----nombre &lt;- getLine <br>
+                    ----putStrLn ("Hola, " ++ nombre)
+                </li> <br>
+                <li class="margen">
+                    <span class="pregunta">Importación de bibliotecas:</span> Mediante el uso de las funcion "import" es que se puede agregar una biblioteca externa a las librerias establecidas en Haskell.
+                    <br><br>
+                    Ejemplo: <br> <br>
+                    import Data.list (sort) <br>
+                    resultadoOrdenados = sort [3, 1, 2]
+                </li>
+            </ul>
+            <!--Inicio del espacio para sabes programas de edicion-->
+            <br>
+            <p class="margen rojo">Aplicación a descargar para editar y ejecutar</p>
+            <br>
+            <ul>
+                <li class="margen"><span class="pregunta">Haskell Lenguaje Server:</span> Es uno de los mejores entornos de desarrollo de este lenguaje, debido a su amplio volumne de herrameintas avanzadas para aquellas personas que lo utilizan para la creación de servicios avanzados, proporcionando veificación de tipos en tiempo real, renombrado seguro, busqueda extensa de documentación, etc.</li><br>
+
+                <li class="margen"><span class="pregunta">Visual Studio:</span> Es uno de los editores mas populares de código, que con la extensión "Haskell Language Server", proporciona un entorno de desarrollo para Haskell que incluye herramientas como el resaltado de sintaxis, la verificación de tipos, autocompletado, etc.</li><br>
+
+                <li class="margen"><span class="pregunta">Intellij IDEA:</span> Es un entorno de desarrollo integrado ampliamente utilizado debido por su potente conjunto de herramientas y funcionalidades para el desarrollo de software, como lo son el control de versiones, la integración que tiene con GHCi, el resaltado de sintaxis y de autocompletado.</li>
+            </ul>
+            <!--Inicio del espacio para sabes que es el paradigma-->
+            <br>
+            <p class="margen rojo">¿A que tipo de paradigma pertenece?</p>
+            <br>
+            <p class="margen">- Haskell pertenece principalmente al paradigma de la programación funcional; En el que la programación funcional es un enfoque de programación que se centra en tratar los cálculos como evaluaciones de funciones matemáticas y evita los cambios de estado y datos mutables. </p>
+
+            <br>
+            <p class="margen rojo">Esqueleto y ejemplo de programa escrito en Haskell- Serie de fibonacci</p>
+            <br>
+
+            <!--Inicio del espacio para el codigo-->
+            <pre><code>
+    fib :: Int -> Int
+    fib 0 = 0
+    fib 1 = 1
+    fib n = fib (n - 1) + fib (n - 2)
+                
+    main :: IO ()
+    main = do
+        let n = 10
+        let fibonacciNumbers = [fib i | i <- [0..n-1]]  
+        mapM_ print fibonacciNumbers
+                 
+            </code></pre>
+
+            <!--Fin del espacio para el codigo-->
+
+        </div>
+    </section>
+
+    <section class="botones">
+        <ol>
+            <li><a href="menuTareas6.html">Anterior</a></li>
+            <li><a href="index.html">Superior</a></li>
+            <li><a href="menuTareas8.html">Siguiente</a></li>
+        </ol>
+    </section>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Seccion: Tareas</title>
+    <link rel="stylesheet" href="css/menuTareas3.css">
+</head>
+<body>
+    <section class="titulo">
+        <div class="inicio">
+            <div class="tarea">
+                <h2>Tarea #8. R</h2>
+            </div>   
+        </div>
+    </section>
+
+    <section class="links">
+        <div class="lista-links">
+            <!--Inicio del espacio para los simbolos que utiliza-->
+            <p class="margen rojo">Simbolos que utiliza R</p><br>
+            
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">1-Operadores matematicos</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`+` (Suma).</li>
+                        <li class="margen">`-` (Resta).</li>
+                        <li class="margen">`*` (Multiplicación).</li>
+                        <li class="margen">`/` (División).</li>
+                        <li class="margen">`%%` (Modulo).</li>
+                        <li class="margen">`^` ó `**` (potencia).</li>
+                        <li class="margen">`%/%` (División entera).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">2-Operadores de comparación</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`==` (Igual a).</li>
+                        <li class="margen">`!=` (Diferente de).</li>
+                        <li class="margen">`&lt;` (Menor que).</li>
+                        <li class="margen">`>` (Mayor que).</li>
+                        <li class="margen">`&lt;=` (Menor o igual que).</li>
+                        <li class="margen">`>=` (Mayor o igual que).</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <br>
+
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">3-Operadores de concatenación</p>
+                    <br>
+                    <ul>
+                        <li class="margen">` c() ` (Concatenación de vectores ).</li>
+                        <li class="margen">` paste() ` (Concatenación de cadenas de texto).</li>
+                        <li class="margen">` rbind() ` (Unión de marcos de datos por filas).</li>
+                        <li class="margen">` cbind() ` (Unión de marcos de datos por columnas).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">4-Simbolos de control de flujo</p>
+                    <br>
+                    <ul>
+                        <li class="margen">` if, else if, if else ` (Estructuras condicionales).</li>
+                        <li class="margen">` for ` (Para bucles tipo for).</li>
+                        <li class="margen">` while ` (Para bucles while).</li>
+                        <li class="margen">` repeat ` (Para bucles infinitos).</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <br>
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">5-Operadores logicos</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`& ó && ` (Puerta logica "Y").</li>
+                        <li class="margen">`| ó || ` (Puerta logica "o").</li>
+                        <li class="margen">` ! ` (Negación).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">6-Comentarios</p>
+                    <br>
+                    <ul>
+                        <li class="margen">` # ` (Para comentarios de una sola línea).</li>
+                    </ul>
+                </div> <br>
+                
+            </div>
+            
+            <!--Inicio del espacio para la sintaxis-->
+            <br>
+            <p class="margen rojo">Sintaxis que utiliza R</p>
+            <br>
+
+            <ul >
+                <li class="margen">
+                     <span class="pregunta">Variables:</span> Para asignar valores a variables en R, se utiliza el operador de asignación "&lt;-" o el signo igual "=" , ademas de que los nombres de las variables son sensibles a mayúsculas y minúsculas.
+                    <br><br>
+                    Ejemplo: mi_variable &lt;- 42<br>
+                    -------------otra_variable = "Hola, mundo"
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Comentarios:</span> Se utilizan para añadir explicaciones de una o varias lineas de codigo, esto utilizando el simbolo #.
+                    <br><br>
+                    Ejemplo: #Este es un comentario en R.
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Estructuras de control:</span> R admite estructuras de control como if, else, for, while, y repeat para controlar el flujo de un programa.
+                    <br><br>
+                    Ejemplo: <br> <br>
+                    if (condición){ <br>
+                    --- --Condición si la condición es verdadera-----} <br>
+                    --else{ <br>
+                    --- --Codigo si la condición es falsa-----}
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Funciones:</span> Se Puede definir funciones en R utilizando la palabra clave "function", las cuales esas funciones toman argumentos y pueden devolver resultados.
+                    <br><br>
+                    Ejemplo: <br> <br>
+                    mi_funcion &lt;- function(x, y) { <br>
+                    --resultado &lt;- x + y <br>
+                    --return(resultado) }
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Vectores:</span> R es especialmente eficiente en el trabajo con vectores, lo que para crear un vector, se puede hacer uso de la función c() o simplemente enumerar los elementos entre corchetes [].
+                    <br><br>
+                    Ejemplo: mi_vector &lt;- c(1, 2, 3, 4, 5) <br>
+                    ------------mi_vector2 &lt;- 1:5
+                </li> <br>
+                <li class="margen">
+                    <span class="pregunta">Indezación:</span>Se puede acceder a elementos en vectores, matrices y listas utilizando corchetes [ ].
+                    <br><br>
+                    Ejemplo: mi_vector[1] #Accede al primer elemento del vector
+                </li> <br>
+                <li class="margen">
+                    <span class="pregunta">Importación de bibliotecas:</span> Mediante el uso de las funcion "library" es que se puede agregar una biblioteca externa a las librerias establecidas en R.
+                    <br><br>
+                    Ejemplo: library(dplyr)  # Cargar el paquete dplyr
+                </li>
+            </ul>
+            <!--Inicio del espacio para sabes programas de edicion-->
+            <br>
+            <p class="margen rojo">Aplicación a descargar para editar y ejecutar</p>
+            <br>
+            <ul>
+                <li class="margen"><span class="pregunta">R Studio:</span> Se trata de un entrono de desarrollo integrado de codigo abierto que ofrece a los programadores de R acceso a diversas herramientas y funcionalidades; Entre las herramientas que incluye este IDE esta la visualización de datos, la depuracioón de codigo, la gestion de proyectos, la compatibilidad con sistemas de control de versiones, etc.</li><br>
+
+                <li class="margen"><span class="pregunta">Visual Studio Code:</span> Es uno de los editores mas populares de código R, dado a que con la extensión que este proporciona para la creación de programación en R, es que permite la disponibilidad de muchas funciones a utilizar, como el resaltado de sintaxis, la depuración del codigo, integración con GIT, autocompletado, etc.</li><br>
+
+                <li class="margen"><span class="pregunta">Eclipse:</span> El entorno de desarrollo Eclipse, proporciona al desarrollo del codigo unas cuantas ventajas a comparación de otros, la cual es su extnsa documentación del lenguaje que tienen, en donde explica y detalla sobre las funciones y paquetes que se pueden utilizar para el desarrollo del lenguaje R.</li>
+            </ul>
+            <!--Inicio del espacio para sabes que es el paradigma-->
+            <br>
+            <p class="margen rojo">¿A que tipo de paradigma pertenece?</p>
+            <br>
+            <p class="margen">- El lenguaje de programación R, es un lenguaje interpretado centrado principalmente en el paradigma declarativo procedimental estructurado, asi tambien como el de la programación orientada a objetos y programación funcional. </p>
+
+            <br>
+            <p class="margen rojo">Esqueleto y ejemplo de programa escrito en R- Serie de fibonacci</p>
+            <br>
+
+            <!--Inicio del espacio para el codigo-->
+            <pre><code>
+    fib &lt;- function(N) {
+        if (N == 0) {
+          return(0)
+        } else if (N == 1) {
+          return(1)
+        } else {
+          return(fib(N - 1) + fib(N - 2))   
+        }
+      }
+                  
+      n &lt;- 10
+      for (i in 0:(n - 1)) {
+        print(fib(i))
+      }           
+            </code></pre>
+
+            <!--Fin del espacio para el codigo-->
+
+        </div>
+    </section>
+
+    <section class="botones">
+        <ol>
+            <li><a href="menuTareas7.html">Anterior</a></li>
+            <li><a href="index.html">Superior</a></li>
+            <li><a href="menuTareas9.html">Siguiente</a></li>
+        </ol>
+    </section>
+</body>
+</html>

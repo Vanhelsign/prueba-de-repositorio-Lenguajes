@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Seccion: Tareas</title>
+    <link rel="stylesheet" href="css/menuTareas3.css">
+</head>
+<body>
+    <section class="titulo">
+        <div class="inicio">
+            <div class="tarea">
+                <h2>Tarea #10. SQL</h2>
+            </div>   
+        </div>
+    </section>
+
+    <section class="links">
+        <div class="lista-links">
+            <!--Inicio del espacio para los simbolos que utiliza-->
+            <p class="margen rojo">Simbolos que utiliza SQL</p><br>
+            
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">1-Simbolos de control de flujo</p>
+                    <br>
+                    
+                    <ul>
+                        <li class="margen">`SELECT` (Se utiliza para seleccionar datos de una base de datos).</li>
+                        <li class="margen">`INSERT` (Se utiliza para insertar nuevos registros en una tabla).</li>
+                        <li class="margen">`UPDATE` (Se utiliza para actualizar registros existentes en una tabla).</li>
+                        <li class="margen">`DELETE` (Se utiliza para eliminar registros de una tabla).</li>
+                        <li class="margen">`CREATE TABLE` (Se utiliza para crear una nueva tabla en la base de datos).</li>
+                        <li class="margen">`ALTER TABLE` (Se utiliza para modificar una tabla existente).</li>
+                        <li class="margen">`DROP TABLE` (Se utiliza para eliminar una tabla).</li>
+                        <li class="margen">`CREATE DATABASE` (Se utiliza para crear una nueva base de datos).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">2-Operadores de comparación </p>
+                    <br>
+                    <ul>
+                        <li class="margen">`==` (Igual a).</li>
+                        <li class="margen">`!=` (Diferente de).</li>
+                        <li class="margen">`&lt;` (Menor que).</li>
+                        <li class="margen">`>` (Mayor que).</li>
+                        <li class="margen">`&lt;=` (Menor o igual que).</li>
+                        <li class="margen">`>=` (Mayor o igual que).</li>
+                        <li class="margen">`BETWEEN` (Entre un rango de valores).</li>
+                        <li class="margen">`LIKE` (Coincidencia de patrones).</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <br>
+
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">3-Operadores de conjuntos</p>
+                    <br>
+                    
+                    <ul>
+                        <li class="margen">` UNION ` (Combina conjuntos de resultados).</li>
+                        <li class="margen">` INTERSECT ` (Devuelve la intersección de conjuntos de resultados).</li>
+                        <li class="margen">` EXCEPT ` (Devuelve la diferencia entre conjuntos de resultados).</li>
+                        <li class="margen">` IN ` (Comprueba si un valor está en un conjunto de valores).</li>
+                        <li class="margen">` ALL ` (Compara un valor con todos los valores en una subconsulta).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">4-Operadores de conjuntos </p>
+                    <br>
+                    <ul>
+                        <li class="margen">` + ` (Suma).</li>
+                        <li class="margen">` - ` (Resta).</li>
+                        <li class="margen">` * ` (Multiplicación).</li>
+                        <li class="margen">` / ` (División).</li>
+                        <li class="margen">` % ` (Modulo).</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <br>
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">5-Operadores logicos</p>
+                    <br>
+                    <ul>
+                        <li class="margen">` && ` (Puerta logica "Y").</li>
+                        <li class="margen">` || ` (Puerta logica "o").</li>
+                        <li class="margen">` not ` (Negación).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">6-Comentarios</p>
+                    <br>
+                    <ul>
+                        <li class="margen">` -- ` (Para comentarios de una sola línea).</li>
+                    </ul>
+                </div> <br>
+                
+            </div>
+            
+            <!--Inicio del espacio para la sintaxis-->
+            <br>
+            <p class="margen rojo">Sintaxis que utiliza SQL</p>
+            <br>
+
+            <ul >
+                <li class="margen">
+                     <span class="pregunta">Select(Consulta de datos):</span> Utilizado para recuperar datos de una tabla, se puede especificar las columnas que deseas seleccionar y aplicar condiciones utilizando la cláusula WHERE.
+                    <br><br>
+                    Ejemplo: <br>
+                    SELECT columna1, columna2 <br>
+                    FROM tabla <br>
+                    WHERE condición
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">INSERT (Inserción de datos):</span> Permite agregar nuevos registros a una tabla, de manera que se Debe especificar la tabla y las columnas en las que deseas insertar valores.
+                    <br><br>
+                    Ejemplo: <br>
+                    INSERT INTO tabla (columna1, columna2) <br>
+                    VALUES (valor1, valor2)
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">UPDATE (Actualización de datos):</span> Se utiliza para modificar datos existentes en una tabla y este puede actualizar valores en una o más columnas basándote en una condición.
+                    <br><br>
+                    Ejemplo: <br>
+                    UPDATE tabla <br>
+                    SET columna = nuevo_valor <br>
+                    WHERE condición
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">DELETE (Eliminación de datos):</span> Permite eliminar registros de una tabla que cumplan con ciertas condiciones especificadas en la cláusula WHERE.
+                    <br><br>
+                    Ejemplo: <br>
+                    DELETE FROM tabla <br>
+                    WHERE condición
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">CREATE TABLE (Creación de tablas):</span> Utilizado para crear una nueva tabla en la base de datos. Debes definir el nombre de la tabla y las columnas que contendrá, junto con sus tipos de datos.
+                    <br><br>
+                    Ejemplo: <br>
+                    CREATE TABLE nombre_tabla ( <br>
+                    columna1 tipo_de_dato, <br>
+                    columna2 tipo_de_dato, <br>
+                    ... <br>
+                    )
+                </li> <br>
+                <li class="margen">
+                    <span class="pregunta">ALTER TABLE (Modificación de tablas):</span> Se utiliza para realizar cambios en la estructura de una tabla existente, como agregar una nueva columna.
+                    <br><br>
+                    Ejemplo: <br>
+                    ALTER TABLE nombre_tabla <br>
+                    ADD columna_nueva tipo_de_dato
+                </li> <br>
+                <li class="margen">
+                    <span class="pregunta">DROP TABLE (Eliminación de tablas):</span>  Elimina una tabla completa y todos sus datos de la base de datos.
+                    <br><br>
+                    Ejemplo: <br> <br>
+                    DROP TABLE nombre_tabla <br>
+                </li> <br>
+                <li class="margen">
+                    <span class="pregunta">Comentarios:</span>   Se utilizan para agregar notas o explicaciones en el código SQL.
+                    <br><br>
+                    Ejemplo: <br> <br>
+                    -- Esto es un comentario de una línea <br>
+                </li>
+            </ul>
+            <!--Inicio del espacio para sabes programas de edicion-->
+            <br>
+            <p class="margen rojo">Aplicación a descargar para editar y ejecutar</p>
+            <br>
+            <ul>
+                <li class="margen"><span class="pregunta">DataGrip:</span> Este IDE para bases de datos, desarrolado por JetBrains, es un entrono amigable para el desarrollador para lo que es la gestión de bases de datos, en el que este ofrece un monton de caracteristicas que puede hacer que los desarrolladores aprovechen todo el potencial de este lenguaje, con caracteristicas como: navegación rapida, diagramas perspicases, editor de datos dominantes, soporte VCS, interfaz de usuario personalizable, etc.</li><br>
+
+                <li class="margen"><span class="pregunta">Aqua Data Studio:</span> Este IDE de pago para bases de datos especialmente desarrollado para lo que es bases de datos y analisis visibles, consta de caracteristicas peculiares que no muchos entonrnos de desarrollo traen, como: el manejo de SQL sin esfuerzo, visualización y analisis de datos, comparaciones simplificadas por medio de esquemas y datos y la ingenieria inversa de bases de datos, ademas de las caracteristicas basicas que trae cualquier IDE. </li><br>
+
+                <li class="margen"><span class="pregunta">SQLGate:</span> Es un entorno de desarrollo que tiene adaptación a varios tipos de bases de datos, que en su mayoria son los que representan casi el 83% del mercado, entre las que se incluyen Oracle, SQL Server, MySQL, PostgreSQL, CUBRID, DB2, MariaDB; En el cual este IDE consta de varias caracteristicas notables como: la ejecución multiple de SQL, autocompletado, una ventana de diseño, un generados de consultas y de informes.</li>
+
+            </ul>
+            <!--Inicio del espacio para sabes que es el paradigma-->
+            <br>
+            <p class="margen rojo">¿A que tipo de paradigma pertenece?</p>
+            <br>
+            <p class="margen">- El paradigma de programación de SQL es el imperativo, el cual este esta combinado con instrucciones decalrativas con el lenguaje de consulta, dado a que las instrucciones imperativas se usan para ejecutar asignaciónes, operaciones de aritmetica, ejecutar ciclos, etc. </p>
+
+            <br>
+            <p class="margen rojo">Esqueleto y ejemplo de programa escrito en SQL- Manejo de una tabla y consulta de datos</p>
+            <br>
+
+            <!--Inicio del espacio para el codigo-->
+            <pre><code>
+    CREATE TABLE empleados (
+        id SERIAL PRIMARY KEY,
+        nombre VARCHAR(50),
+        apellido VARCHAR(50),
+        salario NUMERIC,
+        departamento VARCHAR(50)
+    );
+                
+    -- Insertar algunos datos de ejemplo
+    INSERT INTO empleados (nombre, apellido, salario, departamento)
+    VALUES
+        ('Juan', 'Pérez', 45000, 'Ventas'),
+        ('María', 'Gómez', 55000, 'Tecnología'),
+        ('Luis', 'Rodríguez', 48000, 'Ventas');  
+        
+    SELECT nombre, apellido, salario
+    FROM empleados
+    WHERE departamento = 'Ventas';
+            </code></pre>
+
+            <!--Fin del espacio para el codigo-->
+
+        </div>
+    </section>
+
+    <section class="botones">
+        <ol>
+            <li><a href="menuTareas9.html">Anterior</a></li>
+            <li><a href="index.html">Superior</a></li>
+            <li><a href="menuTareas.html">Siguiente</a></li>
+        </ol>
+    </section>
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #10141f;
+}
+
+/*seccion principal*/
+
+.bio {
+    display: flex;
+    flex-direction: unset;
+    height: 75%;
+    width: auto;
+}
+
+.images {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images .foto {
+    border: #171d2e 12px solid;
+    background-color: #171d2e;
+    border-radius: 12px;
+}
+
+.images img {
+    height: 380px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/*seccion de informacion*/
+
+.info {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos {
+    height: 400px;
+    width: 90%;
+    background-color: #171d2e;
+    border-radius: 12px;
+
+}
+
+.nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+}
+
+.nombre h2 {
+    animation: cambioColor 5s infinite alternate linear;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 30px;
+}
+
+@keyframes cambioColor {
+    
+    0% {color: white;}
+
+    50% {color: yellow;}
+
+    100% {color: white;}
+}
+
+.info-especial li {
+    list-style:square;
+    color: white;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+#lista {
+    padding-left: 40px;
+}
+
+
+/*seccion del boton*/
+
+.links {
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    width: auto;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: unset;
+}
+
+.links ul li a {
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+    margin: 0px 70px;
+    padding: 22px 100px;
+    text-decoration: none;
+    background-color: #cf3e3e;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.links ul li a:hover {
+    background-color: white;
+    color: #10141f;
+}
+
+.lista-links {
+    background-color: #171d2e;
+    border-radius: 10px;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Seccion: Tareas</title>
+    <link rel="stylesheet" href="css/menuTareas3.css">
+</head>
+<body>
+    <section class="titulo">
+        <div class="inicio">
+            <div class="tarea">
+                <h2>Tarea #5. Prolog</h2>
+            </div>   
+        </div>
+    </section>
+
+    <section class="links">
+        <div class="lista-links">
+            <!--Inicio del espacio para los simbolos que utiliza-->
+            <p class="margen rojo">Simbolos que utiliza Prolog</p><br>
+            
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">1-Operadores de comparación</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`=` `==` (unificación, para establecer relaciones).</li>
+                        <li class="margen">`\=` (no unificación, para establecer que dos terminos no son iguales).</li>
+                        <li class="margen">`&lt;, &gt;, =&lt;, =&gt` (comparación numerica).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">2-Operadores logicos</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`,` (coma, "y" logico).</li>
+                        <li class="margen">`;` (punto y coma, "o" logico).</li>
+                        <li class="margen">`not` (negacion logica).</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <br>
+
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">3-Operadores aritmeticos</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`+` `-` `*` `**` `/` `//` (operadores basicos de matematicos).</li>
+                        <li class="margen">`is` (para evaluar expresiones aritmeticas).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">4-Predicados y hechos</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`:-` (signo de dos puntos y guion, se utiliza para definir reglas).</li>
+                        <li class="margen">`.` (punto, indica el final de una cláusula o hecho).</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <br>
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">5-Operador de pertenencia</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`member` (se utiliza para verificar si un elemento pertenece a una lista).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">6-Operador de consulta</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`?-` (se utiliza para realizar consultas en la consola de prolog).</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <br>
+            <div class="listado">
+                
+                <div class="componente1">
+                    <p class="margen pregunta">7-Comentarios</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`%` (porcentaje, se utiliza para comentarios de una sola línea).</li>
+                    </ul>
+                </div>
+
+                <div class="componente1">
+                    <p class="margen pregunta">8-Operador de lista vacia</p>
+                    <br>
+                    <ul>
+                        <li class="margen">`[ ]` (representa una lista vacía).</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <!--Inicio del espacio para la sintaxis-->
+            <br>
+            <p class="margen rojo">Sintaxis que utiliza Prolog</p>
+            <br>
+
+            <ul >
+                <li class="margen">
+                     <span class="pregunta">Hechos:</span> Los hechos en Prolog se expresan mediante cláusulas que afirman relaciones o propiedades, de manera que cada hecho termina con un punto.
+                    <br><br>
+                    Ejemplo: hombre(juan).
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Reglas:</span> Las reglas en Prolog se utilizan para definir relaciones lógicas basadas en condiciones y se representan con una cabeza (el consecuente) y un cuerpo (las condiciones) separados por el operador `:-`.
+                    <br><br>
+                    Ejemplo: padre(X, Y) :- hombre(X), hijo(Y, X).
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Consultas:</span> Las consultas en Prolog se utilizan para hacer preguntas o buscar soluciones a través de consultas y estas se representan con un operador de interrogación ?.
+                    <br><br>
+                    Ejemplo: ?- padre(juan, maria).
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Variables:</span> Las variables en Prolog se inician con una letra mayúscula o un guion bajo y se utilizan para representar valores desconocidos en reglas y consultas.
+                    <br><br>
+                    Ejemplo: ?- padre(X, Y).
+                </li><br>
+                <li class="margen">
+                    <span class="pregunta">Listas:</span> Prolog admite listas que se representan entre corchetes y elementos separados por comas.
+                    <br><br>
+                    Ejemplo: animales([perro, gato, pájaro]).
+                </li>
+            </ul>
+            <!--Inicio del espacio para sabes programas de edicion-->
+            <br>
+            <p class="margen rojo">Aplicación a descargar para editar y ejecutar</p>
+            <br>
+            <ul>
+                <li class="margen"><span class="pregunta">Swi-Prolog:</span> Es un entorno de desarrollo dedicado al lenguaje Prolog de codigo abierto, en el cual proporciona un entorno interactivo de consola y un editor de codigo con resaltado de sintaxis con multiples herramientas de analisis y depuracion de un programa.</li><br>
+
+                <li class="margen"><span class="pregunta">Visual Studio Code:</span> Es un entorno de desarrollo que es multicompatible con distintos lenguajes, esto a base de descargar un paquete de instalación que hara que se proporcione las herramientas para la creación de un programa en el lenguaje Prolog.</li><br>
+
+                <li class="margen"><span class="pregunta">Eclipse-Prolog:</span> Es una extención del entorno de desarrollo Eclipse que permite el desarrollo y la depuración de programas Prolog.</li>
+            </ul>
+            <!--Inicio del espacio para sabes que es el paradigma-->
+            <br>
+            <p class="margen rojo">¿A que tipo de paradigma pertenece?</p>
+            <br>
+            <p class="margen">- Prolog es un lenguaje de programación declarativo que esta basado en el paradigma de la programación logica, en el cual se centra en representar relaciones logicas permitir el razonamiento logico al resolver consultas; Esto dado a que Prolog se compone de hechos y reglas que describen estas relaciones.</p>
+
+            <br>
+            <p class="margen rojo">Esqueleto y ejemplo de programa escrito en Prolog- Serie de fibonacci</p>
+            <br>
+
+            <!--Inicio del espacio para el codigo-->
+            <pre><code>
+    fib(0, 0).
+    fib(1, 1).
+    fib(N,Result) :- 
+        N > 0,
+        N1 is N - 1,
+        N2 is N - 2,
+        fib(N1, R1),
+        fib(N2, R2),
+        Result is R1 + R2.   
+            </code></pre>
+
+            <!--Fin del espacio para el codigo-->
+
+        </div>
+    </section>
+
+    <section class="botones">
+        <ol>
+            <li><a href="menuTareas4.html">Anterior</a></li>
+            <li><a href="index.html">Superior</a></li>
+            <li><a href="menuTareas6.html">Siguiente</a></li>
+        </ol>
+    </section>
+</body>
+</html>
